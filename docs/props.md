@@ -14,7 +14,7 @@ import { AppRegistry, Image } from 'react-native';
 export default class Bananas extends Component {
   render() {
     let pic = {
-      uri: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Bananavarieties.jpg'
+      uri: 'https://facebook.github.io/react-native/docs/assets/favicon.png'}
     };
     return (
       <Image source={pic} style={{width: 193, height: 110}}/>
